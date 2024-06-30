@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj" />
+    <ProjectReference Include="..\Lang\Lang.csproj" />
+    <ProjectReference Include="..\Linq\Linq.csproj" />
+    <ProjectReference Include="..\Patterns\Patterns.csproj" />
+    <ProjectReference Include="..\TPL\TPL.csproj" />
+  </ItemGroup>
+
+</Project>
